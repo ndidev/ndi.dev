@@ -1,0 +1,7 @@
+RewriteEngine on
+RedirectMatch "^/css(/?)$" "/"
+RedirectMatch "^/css/themes(/?)$" "/"
+
+ErrorDocument 400 /
+ErrorDocument 403 /
+ErrorDocument 404 /
